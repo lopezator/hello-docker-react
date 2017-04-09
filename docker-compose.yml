@@ -1,0 +1,10 @@
+hello-docker-react:
+  build: .
+  dockerfile: Dockerfile
+  container_name: hello-docker-react
+  entrypoint: sh entrypoint.sh
+  working_dir: /home/node
+  ports:
+    - 3000:3000
+  volumes:
+    - .:/home/node
