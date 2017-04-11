@@ -30,15 +30,15 @@ And wait until you see the following in the console:
     hello-docker-react    | Note that the development build is not optimized.
     hello-docker-react    | To create a production build, use yarn run build.
 
-# Docker-compose:
-
-For advanced usage, follow the docker-compose command-line reference:
-
-https://docs.docker.com/compose/reference/
-
 # Test your React Installation:
 
 * Check your code at src/ 
 * Open http://localhost:3000
 * Dance!
+
+# Docker-compose:
+
+For advanced usage, follow the docker-compose command-line reference:
+
+https://docs.docker.com/compose/reference/
 
