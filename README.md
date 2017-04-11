@@ -11,13 +11,28 @@ Install docker && docker-compose in your host machine:
 Extra recommended optional step for allowing linux non-root users to run docker commands:
 * $ sudo usermod -aG docker $USER
 
-# Build and run your React environment with single command:
+# Build and start your React environment with single command:
+
+Just run:
 
 * $ docker-compose up
 
+And wait until you see the following in the console:
+
+    hello-docker-react    | Starting the development server...
+    hello-docker-react    | 
+    hello-docker-react    | Compiled successfully!
+    hello-docker-react    | 
+    hello-docker-react    | The app is running at:
+    hello-docker-react    | 
+    hello-docker-react    |   http://localhost:3000/
+    hello-docker-react    | 
+    hello-docker-react    | Note that the development build is not optimized.
+    hello-docker-react    | To create a production build, use yarn run build.
+
 # Docker-compose:
 
-For advanced usage, just follow the docker-compose command-line reference:
+For advanced usage, follow the docker-compose command-line reference:
 
 https://docs.docker.com/compose/reference/
 
