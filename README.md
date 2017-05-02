@@ -36,7 +36,23 @@ And wait until you see the following in the console:
 * Open http://localhost:3000
 * Dance!
 
-# Docker-compose:
+# Extra Bonus! Docker-compose basic handling:
+
+Run in detached mode:
+
+* $ docker-compose up -d
+
+In detached mode, you won't have direct output from the container, so you'll have to check the container logs to see if the build ended (find the above "Compiled successfully" message):
+
+* $ docker-compose logs
+
+Enter into your container to run commands inside it:
+
+* $ docker-compose exec hello-docker-react bash
+
+Exit your container, and go back to your host machine:
+
+* $ exit
 
 For advanced usage, follow the docker-compose command-line reference:
 
