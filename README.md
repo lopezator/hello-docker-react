@@ -46,7 +46,15 @@ In detached mode, you won't have direct output from the container, so you'll hav
 
 * $ docker-compose logs
 
-Enter into your container to run commands inside it:
+Stop a detached mode run:
+
+* $ docker-compose down
+
+Run commands into your container without going into, from your host machine:
+
+* $ docker-compose exec hello-docker-react mycommand
+
+Enter into your container to run commands inside it (ssh-like):
 
 * $ docker-compose exec hello-docker-react bash
 
