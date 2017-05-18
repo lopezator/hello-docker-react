@@ -30,6 +30,8 @@ And wait until you see the following in the console:
     hello-docker-react    | Note that the development build is not optimized.
     hello-docker-react    | To create a production build, use yarn run build.
 
+* To gracefully stop undetached run just press CTRL+C
+
 # Test your React Installation:
 
 * Check your code at src/ 
