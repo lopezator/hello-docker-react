@@ -6,7 +6,7 @@ Your React.js environment in just one command using <a href="https://github.com/
 Install docker && docker-compose in your host machine:
 
 * Follow Docker installation guide: https://docs.docker.com/engine/installation
-* Follow Docker-compose installation guide: https://docs.docker.com/compose/install/
+* Follow Docker-compose installation guide: https://github.com/docker/compose/releases
 
 Extra recommended optional step for allowing linux non-root users to run docker commands:
 * $ sudo usermod -aG docker $USER
