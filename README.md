@@ -68,3 +68,6 @@ For advanced usage, follow the docker-compose command-line reference:
 
 https://docs.docker.com/compose/reference/
 
+# Doubts? Ideas? Corrections?
+
+Send an Issue, a pull request or knock me at Twitter: [@lopezator](https://twitter.com/lopezator)
