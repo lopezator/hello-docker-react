@@ -2,9 +2,7 @@ version: "3"
 
 services:
   hello-docker-react:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    build: Dockerfile
     container_name: hello-docker-react
     entrypoint: sh entrypoint.sh
     working_dir: /home/node
